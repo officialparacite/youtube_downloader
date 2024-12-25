@@ -4,5 +4,8 @@
 # Mark HTML files as not detectable by Linguist
 *.html linguist-detectable=false
 
-# Explicitly set Python as the primary language for .py files
+# Ignore TeX files
+*.tex linguist-detectable=false
+
+# Explicitly set Python as the primary language
 *.py linguist-language=Python
